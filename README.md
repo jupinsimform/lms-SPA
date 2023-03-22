@@ -7,7 +7,7 @@
 ## Tech Stack
 
 - This Project is Build With Some Famous Tech And Tools Which Are Mentioned Below... 👇
-  [![My Skills](https://skillicons.dev/icons?i=js,html,css,bootstrap,jquery,vscode,git,github)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=js,html,css,bootstrap,vscode,git,github)](https://skillicons.dev)
 
 ## ScreenShot
 
