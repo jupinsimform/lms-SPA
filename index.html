@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single page Application</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/icons8-single-page-mode-96.ico"
+      type="image/x-icon"
+    />
+    <!-- carousel link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <!-- Bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- jquery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- main navbar -->
+      <nav class="nav-main">
+        <div class="row1">
+          <div class="home-logo">
+            <a href="#main-home" class="name-logo"
+              ><span class="name">Home</span></a
+            >
+          </div>
+          <div class="nav-menu-main mt-3" id="nav-menu-main">
+            <ul class="nav-menu">
+              <li><a href="#main-about-us">About us</a></li>
+              <li><a href="#main-image">Images</a></li>
+              <li><a href="#main-services">Services</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- mobile navbar -->
+      <nav class="mobile-nav">
+        <div class="mobile-nav-inner">
+          <a href="#main-home" class="brand-logo"
+            ><span class="name">Home</span></a
+          >
+        </div>
+      </nav>
+
+      <!-- hamburger menu -->
+      <button class="hamburger" aria-expanded="false" id="hamburger">
+        <div class="top-bread"></div>
+        <div class="meat"></div>
+        <div class="bottom-bread"></div>
+      </button>
+
+      <!-- sidebar -->
+      <div class="sidebar" id="sidebar">
+        <ul class="menu">
+          <li id="inner-home">
+            <a href="#main-home" class="name-logo"
+              ><span class="name">Home</span>
+            </a>
+          </li>
+          <li id="inner-about"><a href="#main-about-us">About Us</a></li>
+          <li id="inner-image"><a href="#main-image">Images</a></li>
+          <li id="inner-service"><a href="#main-services">Services</a></li>
+        </ul>
+      </div>
+
+      <main>
+        <!-- Home section -->
+        <div class="section home" id="main-home">
+          <div class="homepage">
+            <h1 class="display-highlight">
+              Designer &amp; <br />
+              Product Strategist
+            </h1>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+              <p class="subtitle">
+                I bring a founder's mentality to designing products,
+                experiences, brands, and teams.
+              </p>
+            </div>
+          </div>
+          <div class="row p-t-lg">
+            <div class="col-xs-12 col-lg-2"></div>
+            <div class="col-xs-12 col-sm-10 col-md-5 col-lg-4">
+              <p class="f-small">
+                I've spent over a decade working with teams to ship products
+                that delight users and advance organization's goals.
+                <a href="https://www.turnwall.com/about/">Learn More</a>
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-5 col-lg-4">
+              <p class="f-small">
+                Staff UX Design Lead @Verily. Previously Head of Design
+                <a href="https://www.turnwall.com/work/admithub/">@Admithub</a>,
+                Chief Design Officer
+                <a
+                  href="https://www.turnwall.com/work/bevspot-inventory-counter/"
+                  >@BevSpot</a
+                >, Lecturer @Northeastern
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- About Us Section -->
+        <div class="section about-us rule-lg" id="main-about-us">
+          <div class="about">
+            <div class="row">
+              <div class="col-sm-8 col-md-7">
+                <h1 class="display-highlight">About</h1>
+                <p class="intro">
+                  Designer, developer, and product strategist trying to move the
+                  needle.
+                </p>
+              </div>
+              <div class="col-md-3"></div>
+              <div class="col-xs-4 col-sm-3 col-md-2 p-b-sm">
+                <img
+                  src="https://www.turnwall.com/wp-content/themes/turnwall_theme/images/hire/headshot.png"
+                  alt=""
+                  decoding="async"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="p-b-xl pt-lg-4 rule-lg-l">
+            <div class="row">
+              <div class="col-xs-12 col-md-2"></div>
+              <div class="col-xs-12 col-md-6">
+                <p>
+                  I’ve been called a ‘pragmatic’ designer.<br />I take that as a
+                  compliment.
+                </p>
+                <p>
+                  My professional work slants towards product design that can
+                  make a measurable impact. Usability over style. Stylish when
+                  called for.
+                </p>
+                <p>
+                  Learning from your customers and shipping delightful, yet
+                  useful tools for them is both rewarding and challenging, which
+                  is why I've been drawn to working with early products,
+                  especially those where you can get to know your users
+                  personally.
+                </p>
+                <p>
+                  I’ve had the privilege of working with some great teams on
+                  some truly impactful products, and have learned a thing or two
+                  along the way. I bring that experience to new ventures and try
+                  to share it with folks through mentoring and
+                  <a href="https://www.turnwall.com/articles/">writing</a>.
+                </p>
+                <p>
+                  I tend to think about design like a founder, because I’ve been
+                  one. Balancing process and instinct, the goal is to find
+                  harmony between user delight and business strategy, as fast as
+                  you can deliver quality.
+                </p>
+                <p>
+                  If this seems like your cup of tea, I'd be pleased to chat
+                  about your project needs. My availability is
+                  <a href="#contact" class="scroll">below</a>.
+                </p>
+                <p>-Alex-</p>
+              </div>
+              <div class="col-xs-12 col-md-2"></div>
+              <div class="col-xs-12 col-md-2">
+                <p>
+                  <a href="mailto:alex@turnwall.com">alex@turnwall.com</a>
+                  <br />linkedin
+                  <a
+                    href="https://www.linkedin.com/in/alexturnwall/"
+                    target="_blank"
+                    >/alexturnwall</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image Slider Section -->
+        <div class="section images rule-lg" id="main-image">
+          <div class="image">
+            <div class="row">
+              <div class="col-xs-12">
+                <h1 class="display-highlight">Images</h1>
+              </div>
+
+              <div class="col-md-8">
+                <p class="subtitle">Sample Images</p>
+              </div>
+            </div>
+            <div class="wrapper owl-carousel owl-theme">
+              <div class="item">
+                <img src="./assets/images/reactjs1.webp" alt="" />
+              </div>
+              <div class="item">
+                <img src="./assets/images/nodejs.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="./assets/images/nextjs.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="./assets/images/vuejs.webp" alt="" />
+              </div>
+              <div class="item">
+                <img src="./assets/images/angularjs.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="./assets/images/github.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Services section -->
+        <div class="section services rule-lg" id="main-services">
+          <div class="top-services">
+            <div class="row">
+              <div class="col-xs-12">
+                <h1 class="display-highlight">Services</h1>
+              </div>
+
+              <div class="col-md-8">
+                <p class="subtitle">
+                  Weaving together UX, UI, and brand design with product
+                  management and frontend development.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="case-studies rule-lg-l pt-4">
+            <div class="row">
+              <div class="col-xs-12 col-md-2 p-t-md p-r-lg">
+                <div class="sticky">
+                  <h2>Case Studies</h2>
+                  <p class="caption">
+                    Longform explorations of UX process and design projects
+                  </p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-10">
+                <a
+                  class="case-study-feature-item"
+                  href="https://www.turnwall.com/work/admithub/"
+                >
+                  <div class="row">
+                    <div class="col-xs-10 col-sm-7">
+                      <div class="image-cover">
+                        <span class="service-background image1"></span>
+                      </div>
+                    </div>
+                    <!-- <div class="col-sm-2"></div> -->
+                    <div class="col-xs-10 col-sm-5 pt-5">
+                      <span class="title-block p-t-lg">
+                        <h3>AdmitHub AI Suite</h3>
+                        <p>
+                          Leading product design and user research of the SaaS
+                          platform helping educators use behavioral science to
+                          nudge students toward success
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <hr class="rule" />
+                <a
+                  class="case-study-feature-item"
+                  href="https://www.turnwall.com/work/connected-proof/"
+                >
+                  <div class="row">
+                    <div class="col-xs-10 col-sm-7">
+                      <div class="image-cover">
+                        <span class="service-background image2"></span>
+                      </div>
+                    </div>
+                    <div class="col-xs-10 col-sm-5 pt-5">
+                      <span class="title-block p-t-lg">
+                        <h3>Connected Proof</h3>
+                        <p>
+                          Designing the cross-device software for an industrial
+                          IoT platform to help make food and beverage production
+                          more sustainable
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <hr class="rule" />
+                <a
+                  class="case-study-feature-item"
+                  href="https://www.turnwall.com/work/bevspot-inventory-counter/"
+                >
+                  <div class="row">
+                    <div class="col-xs-10 col-sm-7">
+                      <div class="image-cover">
+                        <span class="service-background image3"></span>
+                      </div>
+                    </div>
+                    <div class="col-xs-10 col-sm-5 pt-5">
+                      <span class="title-block p-t-lg">
+                        <h3>BevSpot Inventory</h3>
+                        <p>
+                          Leading the UX evolution of an industry-favorite app
+                          by working closely with customers and “taking over”
+                          their jobs for the day
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <hr class="rule" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="section pb-lg-0">
+          <div class="row">
+            <div class="col-md-2">
+              <p>
+                <a href="https://www.turnwall.com">Alex Turnwall</a>
+              </p>
+            </div>
+            <div class="col-md-5">
+              <p>
+                I’m a Boston-based designer, developer, and strategist. I
+                <a href="https://www.turnwall.com/about/#consulting">consult</a
+                >, <a href="https://www.turnwall.com/articles/">write</a>, and
+                speak about design, entrepreneurship and technology. You might
+                also find me biking, kayaking, skiing, woodworking, or brewing.
+              </p>
+            </div>
+            <div class="col-md-5">
+              <p>Get in touch:</p>
+              <p class="small">
+                Email <a href="mailto:alex@turnwall.com">alex@turnwall.com</a>
+                <br />LinkedIn
+                <a
+                  href="https://www.linkedin.com/in/alexturnwall/"
+                  target="_blank"
+                  >/alexturnwall</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="row mt-xl-5 pt-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-10">
+              <p class="small opacity-50">
+                Design and content © 2008-2023 by Alex Turnwall unless otherwise
+                noted, all rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- fontawesome kit link -->
+    <script
+      src="https://kit.fontawesome.com/5f35126798.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- carousel link -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="./assets/js/app.js"></script>
+  </body>
+</html>
